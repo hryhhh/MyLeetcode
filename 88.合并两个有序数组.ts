@@ -33,7 +33,7 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     //     nums1[i] = res[i];
     // }
 
-    // 逆向双指针 time: O(m + n) space: O(1)
+    // 逆向双指针 时间: O(m + n) 空间: O(1)
     let i = m - 1, j = n - 1, k = m + n - 1;
     while (i >= 0 && j >= 0) {
         if (nums1[i] > nums2[j]) {
